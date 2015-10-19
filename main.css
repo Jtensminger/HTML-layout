@@ -1,0 +1,20 @@
+img {
+  border: 1px solid lightgray;
+  max-height: 300px;
+  max-width: 300px;
+  margin: 10px;
+}
+ul {
+    list-style-type: none;
+}
+ul.authors img{
+  max-height: 20px;
+  max-width: 20px;
+}
+li.octocat {
+  float: left;
+}
+div.image-footer {
+  border-bottom: 1px solid lightgray;
+  margin: 10px;
+}

@@ -2,19 +2,58 @@ img {
   border: 1px solid lightgray;
   max-height: 300px;
   max-width: 300px;
-  margin: 10px;
+  margin: 5px;
 }
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
+
 ul.authors img{
   max-height: 20px;
   max-width: 20px;
+  border-radius: 3px;
+  margin: 1px;
+}
+.image-caption {
+  float: right;
+}
+.image-caption::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.image-caption a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.image-number {
+  float: left;
+  color: lightgray;
+  font-weight: 600;
 }
 li.octocat {
   float: left;
 }
+
 div.image-footer {
+  margin: 5px;
   border-bottom: 1px solid lightgray;
-  margin: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.image-footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul.authors {
+  margin: 0 0 0 6px;
+  padding: 0;
+  float: right;
 }

@@ -1,3 +1,12 @@
+.triangle {
+float: right;
+margin-right: 24px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 8px 8px 0 8px;
+border-color: #d4d4d4 transparent transparent transparent;
+}
 img {
   border: 1px solid lightgray;
   max-height: 300px;
